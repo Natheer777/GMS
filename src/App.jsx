@@ -178,7 +178,7 @@ const toggleIcons = () => {
       <>
       <Router>
       <Routes>
-      <Route path="/" element={<Home />} />
+      <Route path="/GMS/" element={<Home />} />
       </Routes>
     </Router>
     </>
