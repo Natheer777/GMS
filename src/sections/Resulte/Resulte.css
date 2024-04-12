@@ -51,7 +51,7 @@
     overflow: hidden;
     z-index: 1;
     color: green;
-    padding: 0.7em 2em 0.7em 2.7em;
+    padding: 0.7em 2em 0.7em 0.7em;
     font-size: 18px;
     font-weight: bold;
     border-radius: 0.5em;
@@ -64,7 +64,6 @@
   
   .button2 > svg {
     height: 30px;
-    position: absolute;
     padding: 0px 5px;
     margin-top: 0px;
   }
