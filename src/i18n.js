@@ -20,7 +20,7 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    supportedLngs: ["en", "ar"],
+    supportedLngs: ["ar" , "en"],
     fallbackLng: "ar",
     debug: true,
     detection: {
