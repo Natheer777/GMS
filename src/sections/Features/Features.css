@@ -1,0 +1,31 @@
+.titleFeatures{
+    color: white;
+    text-shadow: var(--text-shadow);
+}
+.FeaturesDetails{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 8vh;
+    gap: 20px;
+}
+.FeaturesDetails p{
+    color: white;
+    box-shadow: 0 0 3px #FF0000;
+    background-color: #c42f22;
+    border-radius: 14px;
+    width: 10rem;
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    position: relative;
+    margin-bottom: 10px;
+    flex-direction: column-reverse;
+}
+.FeaturesDetails p svg{
+    font-size: 30px;
+    margin: auto;
+    margin-bottom: 10px;
+}

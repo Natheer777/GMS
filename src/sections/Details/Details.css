@@ -1,0 +1,21 @@
+.DetailsCourse{
+    color: white;
+    text-shadow: var(--text-shadow);
+}
+
+.Course p{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    text-shadow: var(--text-shadow);
+    background-color: rgb(67, 66, 66);
+    border-radius: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+    text-align: center;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}

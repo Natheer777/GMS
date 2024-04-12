@@ -1,0 +1,59 @@
+.container {
+    margin-top: 10vh;
+  }
+  .about-title {
+    margin-top: 10vh;
+    text-shadow: var(--text-shadow);
+    color: whitesmoke;
+    margin-bottom: 20px;
+  }
+  .about-details {
+    margin-top: 10px;
+    line-height: 2;
+    opacity: 0.9;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+  }
+  .about-img {
+    width: 90%;
+  }
+  
+  .detailsAbout{
+    color: whitesmoke;
+  }
+  .detailsAbout .bi{
+    color: var(--color--red);
+  }
+  .detailsAbout button{
+    background-color: var(--color--red);
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: 0.9s;
+  }
+  .detailsAbout button:hover{
+    background-color: #ff5b4c;
+  }
+  .Resulte{
+    line-height: 2;
+    text-align: center;
+    color: #ff5949;
+    font-weight: bold;
+  }
+  .Tr1{
+   transition-delay: 100ms !important; 
+  }
+  .Tr2{
+   transition-delay: 200ms !important; 
+  }
+  .Tr3{
+   transition-delay: 300ms !important; 
+  }
+  .Tr4{
+   transition-delay: 400ms !important; 
+  }

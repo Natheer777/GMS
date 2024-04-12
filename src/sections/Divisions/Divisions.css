@@ -1,0 +1,60 @@
+.titleDivision{
+    color: white;
+    text-shadow: var(--text-shadow);
+}
+.DivisionDetails{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 8vh;
+    gap: 20px;
+}
+
+.DivisionDetails div p{
+    color: white;
+    text-shadow: var(--text-shadow);
+    justify-content: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 10px;
+}
+.DivisionDetails svg{
+    border-radius: 10vh;
+    font-size: 30px;
+    margin: auto;
+}
+.Svg{
+    margin: auto;
+    border-radius: 50vh;
+    width: 10vh;
+    height: 10vh;
+    background-color:  rgb(67, 66, 66);
+    position: relative;
+}
+.Svg::before{
+    content: "";
+    background-color: red;
+    position: absolute;
+    top: -7px;
+    left: -3px;
+    border-radius: 50vh;
+    width: 27px;
+}
+.Svg1::before{
+    content: "5";
+}
+.Svg2::before{
+    content: "4";
+}
+.Svg3::before{
+    content: "3";
+}
+.Svg4::before{
+    content: "2";
+}
+.Svg5::before{
+    content: "1";
+}
