@@ -10,7 +10,7 @@ export default function Features() {
     const [t] = useTranslation()
   return (
     <>
-    <div className="container mt-5">
+    <div className="container mt-5" id='Div'>
             <h2 className='titleFeatures text-center'>- {t("Features-h")} -</h2>
             <div className="FeaturesDetails">
                 <p className='top'><FaHandsHelping /><p></p>{t("Features-1")}</p>

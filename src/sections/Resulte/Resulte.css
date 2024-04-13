@@ -38,10 +38,10 @@
     height: 16rem;
 }
 .ContactUs{
-    color: white;
-    text-shadow: var(--text-shadow);
+    color: var(--color--red);
     text-align: center;
-    margin-top: 8vh;
+    margin-top: 12vh;
+    font-weight: bold;
 }
 
 .button2 {
@@ -157,7 +157,7 @@
     touch-action: manipulation;
     white-space: nowrap;
     will-change: box-shadow,transform;
-    font-size: 18px;
+    font-size: 22px;
   }
   
   .button-29:focus {
@@ -176,3 +176,10 @@
   .button-29 svg{
     margin-right: 10px;
   }
+.Span{
+  background-color: #333;
+  padding: 3vh 1vh;
+  font-size: 20px;
+  border-radius: 14px;
+
+}

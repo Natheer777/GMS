@@ -17,8 +17,12 @@ const [t] = useTranslation()
             <p className="right Tr3"><i className="bi bi-caret-right-fill"></i> {t("About-details1")}</p>
             <p className="right Tr4"><i className="bi bi-caret-right-fill"></i> {t("About-details2")}</p>
             <p className="Resulte top">{t("Resulte")}</p>
+            <a href="#Contact">
           <button className="top">{t("About-btn-contact")}</button>
+            </a>
+            <a href="#Div">
           <button className="top">{t("About-btn-more")}</button>
+            </a>
           </div>
         </div>
         <div className="col-lg-5 col-md-6">

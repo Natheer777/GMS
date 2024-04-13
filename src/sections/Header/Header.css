@@ -1,3 +1,10 @@
+html{
+  background-image: url("../../assets/freecompress-photo_2024-04-13_00-14-01.webp");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .img1 {
     background-image: url("../../assets/SwiperImg/1img.webp");
   }

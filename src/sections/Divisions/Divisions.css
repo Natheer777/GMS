@@ -44,17 +44,17 @@
     width: 27px;
 }
 .Svg1::before{
-    content: "5";
+    content: "1";
 }
 .Svg2::before{
-    content: "4";
+    content: "2";
 }
 .Svg3::before{
     content: "3";
 }
 .Svg4::before{
-    content: "2";
+    content: "4";
 }
 .Svg5::before{
-    content: "1";
+    content: "5";
 }

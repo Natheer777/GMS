@@ -10,23 +10,30 @@
   --color--red :#fa3a28;
   --text-shadow:  0 0 3px #FF0000;
 }
+
+
+#root{
+  background-image: url("./assets/freecompress-photo_2024-04-13_00-14-01.webp");
+  background-position: center;
+}
 html,
-body,
+body{
+  background-color: black;
+}
 .container-fluid{
   font-family: "Source Sans 3", sans-serif  "Tajawal", sans-serif;
-  background-color: #131718;
 }
 
 .left {
   opacity: 0;
   filter: blur(4px);
-  transform: translateX(-4%);
+  transform: translateX(-3.5%);
   transition: all 1s;
 }
 .right {
   opacity: 0;
   filter: blur(4px);
-  transform: translateX(4%);
+  transform: translateX(3.5%);
   transition: all 1s;
 }
 .hidden {
