@@ -11,14 +11,9 @@
   --text-shadow:  0 0 3px #FF0000;
 }
 
-
-#root{
-  background-image: url("./assets/freecompress-photo_2024-04-13_00-14-01.webp");
-  background-position: center;
-}
 html,
 body{
-  background-color: black;
+  background-color: #151718;
 }
 .container-fluid{
   font-family: "Source Sans 3", sans-serif  "Tajawal", sans-serif;
@@ -95,7 +90,6 @@ body{
 .social.look {
   right: 14px;
 }
-
 .email {
   background-color: palevioletred;
   transition-delay: 100ms;
