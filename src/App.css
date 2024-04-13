@@ -12,10 +12,9 @@
 }
 
 html,
-body{
-  background-color: #151718;
-}
+body,
 .container-fluid{
+  background-color: #151718;
   font-family: "Source Sans 3", sans-serif  "Tajawal", sans-serif;
 }
 
