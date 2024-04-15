@@ -1,5 +1,5 @@
 import { useState , useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, HashRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle";
 import 'bootstrap-icons/font/bootstrap-icons.css'
@@ -178,7 +178,7 @@ const toggleIcons = () => {
       <>
       <Router>
       <Routes>
-      <Route path="/GMS/" element={<Home />} />
+      <Route path="/GMS" element={<Home />} />
       </Routes>
     </Router>
     </>
