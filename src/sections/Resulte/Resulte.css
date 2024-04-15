@@ -132,7 +132,7 @@
     margin-top: 6vh;
     align-items: center;
     appearance: none;
-    background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+    background-color: #0b76ee;
     border: 0;
     border-radius: 6px;
     box-shadow: rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, rgba(58, 65, 111, .5) 0 -3px 0 inset;
@@ -179,6 +179,6 @@
   padding: 3vh 1vh;
   font-size: 1rem;
   border-radius: 14px;
-  width: 50%;
+  /* width: 100%; */
   margin: auto;
 }
