@@ -89,7 +89,7 @@ export default function Resulte() {
           <div className="Download mt-3 mb-5">
           <p>
 
-          <a href=""><button className="button-29" role="button">{t("Download")} <FaTelegramPlane /> </button></a>
+          <a href="https://t.me/GMSArchitects"><button className="button-29" role="button">{t("Download")} <FaTelegramPlane /> </button></a>
           </p>
           </div>
         </div>
