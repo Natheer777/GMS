@@ -21,13 +21,13 @@ body,
 .left {
   opacity: 0;
   filter: blur(4px);
-  transform: translateX(-3.5%);
+  transform: translateX(-3%);
   transition: all 1s;
 }
 .right {
   opacity: 0;
   filter: blur(4px);
-  transform: translateX(3.5%);
+  transform: translateX(3%);
   transition: all 1s;
 }
 .hidden {
@@ -66,7 +66,7 @@ body,
   right: -50px;
   border: none;
   color: white;
-  transition: 0.9s;
+  transition: 0.4s;
 }
 .social ul {
   cursor: pointer;

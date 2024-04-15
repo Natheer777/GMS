@@ -26,6 +26,7 @@ export default function Header() {
 
      
         <Swiper
+        dir='ltr'
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{

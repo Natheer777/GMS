@@ -17,7 +17,7 @@ export default function Resulte() {
         </div>
         <div className="ContactUs">
           <div className="ContactH">
-          <span className="Span">{t("ContactUs")}</span>  
+          <p className="Span">{t("ContactUs")}</p>  
             <div className="Btns">
 
             <a href="https://wa.link/2qvzp2">
@@ -89,7 +89,7 @@ export default function Resulte() {
           <div className="Download mt-3 mb-5">
           <p>
 
-          <a href=""><button className="button-29" role="button">{t("Download")} <FaTelegramPlane /></button></a>
+          <a href=""><button className="button-29" role="button">{t("Download")} <FaTelegramPlane /> </button></a>
           </p>
           </div>
         </div>

@@ -140,14 +140,10 @@
     color: #fff;
     cursor: pointer;
     display: inline-flex;
-    font-family: "JetBrains Mono", monospace;
-    height: 48px;
     justify-content: center;
-    line-height: 1;
+    line-height: 2;
     list-style: none;
     overflow: hidden;
-    padding-left: 6px;
-    padding-right: 6px;
     position: relative;
     text-align: left;
     text-decoration: none;
@@ -155,10 +151,10 @@
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
-    white-space: nowrap;
     will-change: box-shadow, transform;
-    font-size: 22px;
-
+    font-size: 1rem;
+    text-align: center;
+    padding: 8px;
   }
   
   .button-29:focus {
@@ -175,12 +171,14 @@
     transform: translateY(2px);
   }  
   .button-29 svg{
-    margin-right: 10px;
+    margin-right: 5px;
+    margin-left: 5px;
   }
 .Span{
   background-color: #333;
   padding: 3vh 1vh;
-  font-size: 20px;
+  font-size: 1rem;
   border-radius: 14px;
-
+  width: 50%;
+  margin: auto;
 }
