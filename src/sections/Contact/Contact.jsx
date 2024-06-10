@@ -9,7 +9,7 @@ export default function Contact() {
     <>
           <div className="container mb-5" id='Contact'>
             <h2 className='contact text-center mt-5 mb-5'>- {t("contact-h")} -</h2>
-        <form method="POST" action="https://formsubmit.co/gaithaldabbas11@gmail.com" encType="multipart/form-data" id="Contact">
+        <form method="POST" action="https://formsubmit.co/natheernn3@gmail.com" encType="multipart/form-data" id="Contact">
         <label>{t("Name-form")}</label>
           <input type="text" name="user_name" required />
           <label>{t("Email-form")}</label>

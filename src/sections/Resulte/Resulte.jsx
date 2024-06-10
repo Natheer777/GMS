@@ -1,6 +1,6 @@
 import "./Resulte.css";
 import { useTranslation } from "react-i18next";
-import { FaTelegramPlane } from "react-icons/fa";
+// import { FaTelegramPlane } from "react-icons/fa";
 
 export default function Resulte() {
   const [t] = useTranslation();
@@ -19,16 +19,17 @@ export default function Resulte() {
           <div className="ContactH">
           <p className="Span">{t("ContactUs")}</p>  
             <div className="Btns">
+<p>
 
-            <a href="https://wa.link/2qvzp2">
-              <button className="button2">
+            <a href="">
+              <button className="button2 mb-5">
                 {t("Name-1")}
                 <svg
                   viewBox="0 0 48 48"
                   y="0px"
                   x="0px"
                   xmlns="http://www.w3.org/2000/svg"
-                >
+                  >
                   <path
                     d="M4.868,43.303l2.694-9.835C5.9,30.59,5.026,27.324,5.027,23.979C5.032,13.514,13.548,5,24.014,5c5.079,0.002,9.845,1.979,13.43,5.566c3.584,3.588,5.558,8.356,5.556,13.428c-0.004,10.465-8.522,18.98-18.986,18.98c-0.001,0,0,0,0,0h-0.008c-3.177-0.001-6.3-0.798-9.073-2.311L4.868,43.303z"
                     fill="#fff"
@@ -52,7 +53,8 @@ export default function Resulte() {
                 </svg>
               </button>
             </a>
-            <a href="https://wa.link/d7t8x5">
+                </p>
+            <a href="">
               <button className="button2">
                 {t("Name-2")}
                 <svg
@@ -87,10 +89,10 @@ export default function Resulte() {
                     </div>
           </div>
           <div className="Download mt-3 mb-5">
-          <p>
+          {/* <p>
 
           <a href="https://t.me/GMSArchitects"><button className="button-29" role="button">{t("Download")} <FaTelegramPlane /> </button></a>
-          </p>
+          </p> */}
           </div>
         </div>
       </div>
