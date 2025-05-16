@@ -49,5 +49,6 @@
     "Textarea-form" : "محتوى الرسالة",
     "File-form" : "اختيار ملف",
     "Send-form" : "ارسال",
-    "contact-h" : "تواصل معنا"
+    "contact-h" : "تواصل معنا",
+        "app_title": "GMS"
 }
